@@ -1,0 +1,20 @@
+<script type="text/template" id="sidebar-template">
+<nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
+    <h5>标签</h5>
+    <ul class="nav nav-sidebar">
+        {{#tags}}
+        <li>
+            <a href="/articles/list?tag={{id}}" class="padding-left-10 padding-top-5">
+                <span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 
+                <span>{{name}}</span>
+            </a>
+        </li>
+        {{/tags}}
+    </ul>
+    <hr />
+    <div>
+        <p>最后由 {{last_modifier_name}} <a href="/articles/update/{{id}}">更新</a> 于</p>
+        <p>{{update_time_date}}</p>
+    </div>
+</nav>
+</script>

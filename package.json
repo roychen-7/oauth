@@ -11,6 +11,7 @@
     "debug": "*",
     "ejs": "*",
     "express": "*",
+    "express-session": "*",
     "morgan": "*"
   }
 }

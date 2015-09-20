@@ -1,0 +1,21 @@
+<% include ../layouts/header %>
+
+<div class="display-none" for="article-id"><%= articleId %></div>
+<br />
+<div class="col-md-9">
+    <div id='article-container' class="font-size-18">
+    </div>
+</div>
+<div class="col-md-3">
+    <div id='sidebar-container'>
+    </div>
+</div>
+
+<% include sidebar %>
+
+<script type="text/template" id="article-template">
+<h1 class="page-header margin-top-10">{{title}}</h1>
+<div id="content-container"></div>
+</script>
+
+<% include ../layouts/footer %>
