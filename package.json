@@ -12,6 +12,7 @@
     "ejs": "*",
     "express": "*",
     "express-session": "*",
-    "morgan": "*"
+    "morgan": "*",
+    "node-uuid": "*"
   }
 }
