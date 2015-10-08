@@ -17,8 +17,7 @@ app.use(bodyParser.urlencoded({
 app.use(cookieParser('app'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(session({
-    key: 'oauth-test',
-    proxy: 'true',
+    key: 'oauth-test'
 }));
 
 // routes
